@@ -21,7 +21,6 @@ class Solution(object):
                 t.append(i)
             elif(t == []):
                 flag = 0
-            
             elif(t!=[]):
                 if((t[len(t)-1] == '(' and i == ')') or (t[len(t)-1] == '{' and i == '}') or (t[len(t)-1] == '[' and i == ']')):
                     x=t.pop()
