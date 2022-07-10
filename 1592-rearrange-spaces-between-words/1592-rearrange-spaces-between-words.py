@@ -17,10 +17,9 @@ class Solution(object):
         del words[0]
         for i in words:
             text=text+(' '*n)+i
-        n=count-n*(l-1)
-        text=text+(' '*n)
-        return text
-            
+        #n=count-n*(l-1)
+        return text+(' '*(count%(l-1)))
+       
         
         
         
