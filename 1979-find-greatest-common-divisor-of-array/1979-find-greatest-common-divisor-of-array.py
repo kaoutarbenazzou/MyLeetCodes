@@ -15,7 +15,7 @@ class Solution(object):
         #         mn=i
         #     if i>mx:
         #         mx=i
-        for i in range(mn*mx,1,-1):
+        for i in range(mx,1,-1):
             if mx%i==0 and mn%i==0:
                 div=i
                 break
